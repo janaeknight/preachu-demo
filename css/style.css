@@ -1,0 +1,11 @@
+:root {
+    --ibr-font: 42px;
+    --txt-bl: skyblue;
+}
+
+.txt-center { text-align: center };
+.txt-right { text-align: right };
+
+footer {
+    border-top: 10px inset gray;
+}
