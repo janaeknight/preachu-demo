@@ -1,5 +1,5 @@
 :root {
-    --ibr-font: 42px;
+    --ibr-font: 56px;
     --txt-bl: skyblue;
 }
 
@@ -8,4 +8,24 @@
 
 footer {
     border-top: 10px inset gray;
+}
+
+
+.ibr-bl {
+    height: 100px; width: 100px; padding-top: 10px;
+    background-color: #5094F2; color: #FFFFFF;
+    font-size: var(--ibr-font);
+    border-radius: 100px;
+}
+.ibr-rd {
+    height: 100px; width: 100px; padding-top: 10px;
+    background-color: #D94748; color: #FFFFFF;
+    font-size: var(--ibr-font);
+    border-radius: 100px;
+}
+.ibr-yl {
+    height: 100px; width: 100px; padding-top: 10px;
+    background-color: #EBBB11; color: #FFFFFF;
+    font-size: var(--ibr-font);
+    border-radius: 100px;
 }
