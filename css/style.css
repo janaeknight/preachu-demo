@@ -1,31 +1,50 @@
 :root {
     --ibr-font: 56px;
-    --txt-bl: skyblue;
+    --txt-bl: #9FC4F8;
+    color: #D4D4D4;
 }
-
+.container-fluid {
+    padding-left: 150px; padding-right: 150px;
+}
 .txt-center { text-align: center };
 .txt-right { text-align: right };
 
-footer {
-    border-top: 10px inset gray;
+
+nav ul {
+    list-style: none;
+    color: #909090;
+}
+nav li {
+    display: inline;
 }
 
 
+.txt-bl {
+    font-size: 1.2em;
+    color: var(--txt-bl);
+}
 .ibr-bl {
     height: 100px; width: 100px; padding-top: 10px;
     background-color: #5094F2; color: #FFFFFF;
     font-size: var(--ibr-font);
     border-radius: 100px;
+    margin-left: auto; margin-right: auto;
 }
 .ibr-rd {
-    height: 100px; width: 100px; padding-top: 10px;
+    height: 100px; width: 100px; padding-top: 15px;
     background-color: #D94748; color: #FFFFFF;
     font-size: var(--ibr-font);
     border-radius: 100px;
+    margin-left: auto; margin-right: auto;
 }
 .ibr-yl {
     height: 100px; width: 100px; padding-top: 10px;
     background-color: #EBBB11; color: #FFFFFF;
     font-size: var(--ibr-font);
     border-radius: 100px;
+    margin-left: auto; margin-right: auto;
+}
+
+footer {
+    border-top: .5px inset silver;
 }
